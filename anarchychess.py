@@ -45,6 +45,3 @@ class TigranPetrosian(discord.Client):
 
 client = TigranPetrosian()
 client.run('token')
-
-print("testing branches")
-
