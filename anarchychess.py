@@ -35,7 +35,7 @@ class TigranPetrosian(discord.Client):
             return
         
         if "Google en passant" in msg.content:
-            await msg.reply("Holy Hell", mention_author=True)
+            await msg.reply("Holy Hell")
             return
         
         for word in self.KEYWORDS:
