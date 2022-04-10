@@ -48,4 +48,4 @@ class TigranPetrosian(discord.Client):
 
 
 client = TigranPetrosian()
-client.run('OTYyMTI0NzUzODM2MDcyOTgw.YlC-gA.TIASJcHDpb-mgC5_j6rezPeIt7k')
+client.run('token')
