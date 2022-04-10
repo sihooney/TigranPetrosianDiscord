@@ -26,6 +26,9 @@ class TigranPetrosian(discord.Client):
     ]
 
     KEYWORDS = {"pipi", "pampers", "tigran", "petrosian"}
+
+    async def on_ready(self):
+        print('We have logged in as {0.user}'.format(client))
     
     async def on_message(self, msg: discord.Message):
         if msg.author.id == self.user.id:
@@ -43,5 +46,6 @@ class TigranPetrosian(discord.Client):
                     await msg.channel.send(random.choice(self.SHORTENED_PHRASES))
                 return
 
+
 client = TigranPetrosian()
-client.run('token')
+client.run('OTYyMTI0NzUzODM2MDcyOTgw.YlC-gA.TIASJcHDpb-mgC5_j6rezPeIt7k')
